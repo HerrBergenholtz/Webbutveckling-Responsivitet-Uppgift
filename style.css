@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: min-content;
+    height: min-content;
+}
+
+main section {
+    width: 25vw;
+    height: 25vh;
+    background-color: rebeccapurple;
+}
+
+main section:nth-child(1) {
+    background-color: yellow;
+}
+
+main section:nth-child(2) {
+    background-color: green;
+}
+
+main section:nth-child(3) {
+    background-color: blue;
+}
+
+main section:nth-child(4) {
+    background-color: red;
+}
